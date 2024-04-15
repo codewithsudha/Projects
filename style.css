@@ -1,0 +1,147 @@
+
+
+
+.root
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color:hsl(30, 38%, 92%) ; 
+ color: hsl(228, 12%, 48%);
+ 
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 600px;
+    height: 450px;
+    gap: 0;
+    margin:50px auto;
+    box-sizing: border-box;
+  
+    
+
+    
+}
+
+h1{
+    font-size: 40px;
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    
+}
+
+ins{
+    color: hsl(158, 36%, 37%);  
+    
+    font-size: 30px !important;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+
+}
+
+
+
+#image
+{
+    height: 450px;
+    width: 300px;
+}
+
+.d1{
+    height: 450px;
+    width: 300px;
+    background-color: aqua;
+    box-sizing: border-box;
+    
+}
+
+.d2{
+    height: 450px;
+    width: 300px;
+    padding: 10px 25px ;
+    box-sizing: border-box;
+    background-color: white;
+  
+    
+
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+#p2{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 500;
+}
+
+
+button img{
+   padding-right: 5px;
+   margin-right: 10px;
+
+}
+
+button span{
+    font-size: 15px;
+}
+
+#p3 ins, strike
+{
+   
+    font-size: 30px;
+    
+
+}
+
+#p3
+{
+    word-spacing: 25px;
+}
+
+#p1{
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-family: 500;
+}
+
+
+
+@media screen and (max-width:350px) and (min-width:320px) {
+ .main{
+    display:block;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    margin: 20px;
+}
+
+.d1{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+#image{
+    width: 300px;
+    height: 300px;
+}
+.d2{
+    width: 300px;
+    height: 450px;
+    display: block;
+}
+}
+
+
